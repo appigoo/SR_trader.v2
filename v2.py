@@ -76,7 +76,7 @@ def parse_custom(text, is_price=True):
     return d
 
 custom_prices = parse_custom(custom_price_text, True)
-custom_vol_mult   = parse_custom(_vol_text, False)
+custom_vol_mult = parse_custom(custom_vol_text, False)
 
 # ==================== Telegram & 聲音 ====================
 try:
