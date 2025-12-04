@@ -1,0 +1,8 @@
+# requirements.txt
+streamlit
+yfinance ==0.2.65
+pandas
+numpy
+plotly
+requests
+streamlit-autorefresh
